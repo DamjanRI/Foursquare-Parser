@@ -15,6 +15,13 @@
 		AD32A0B91D73556F00F7F6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD32A0B71D73556F00F7F6CA /* LaunchScreen.storyboard */; };
 		AD32A0C41D73556F00F7F6CA /* Assignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32A0C31D73556F00F7F6CA /* Assignment1Tests.m */; };
 		AD32A0CF1D73556F00F7F6CA /* Assignment1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32A0CE1D73556F00F7F6CA /* Assignment1UITests.m */; };
+		AD32A0E11D73585900F7F6CA /* BZFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32A0DE1D73585900F7F6CA /* BZFoursquare.m */; settings = {ASSET_TAGS = (); }; };
+		AD32A0E21D73585900F7F6CA /* BZFoursquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32A0E01D73585900F7F6CA /* BZFoursquareRequest.m */; settings = {ASSET_TAGS = (); }; };
+		AD3ED52D1D746BB400EA6AFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3ED52C1D746BB400EA6AFE /* MapKit.framework */; };
+		AD9B81381D74BF1000FDD251 /* CSMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9B81371D74BF1000FDD251 /* CSMapAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		AD9B813A1D74C9F600FDD251 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9B81391D74C9F600FDD251 /* CoreLocation.framework */; };
+		ADA84D5A1D737219005F73B4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA84D591D737219005F73B4 /* MobileCoreServices.framework */; };
+		ADF9CBBF1D760E9A00A60BA3 /* venue.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF9CBBE1D760E9A00A60BA3 /* venue.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		AD32A0CA1D73556F00F7F6CA /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD32A0CE1D73556F00F7F6CA /* Assignment1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment1UITests.m; sourceTree = "<group>"; };
 		AD32A0D01D73556F00F7F6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD32A0DD1D73585900F7F6CA /* BZFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquare.h; sourceTree = "<group>"; };
+		AD32A0DE1D73585900F7F6CA /* BZFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquare.m; sourceTree = "<group>"; };
+		AD32A0DF1D73585900F7F6CA /* BZFoursquareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquareRequest.h; sourceTree = "<group>"; };
+		AD32A0E01D73585900F7F6CA /* BZFoursquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquareRequest.m; sourceTree = "<group>"; };
+		AD3ED52C1D746BB400EA6AFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD9B81361D74BF1000FDD251 /* CSMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMapAnnotation.h; sourceTree = "<group>"; };
+		AD9B81371D74BF1000FDD251 /* CSMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMapAnnotation.m; sourceTree = "<group>"; };
+		AD9B81391D74C9F600FDD251 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADA84D591D737219005F73B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ADF9CBBD1D760E9A00A60BA3 /* venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = venue.h; sourceTree = SOURCE_ROOT; };
+		ADF9CBBE1D760E9A00A60BA3 /* venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = venue.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9B813A1D74C9F600FDD251 /* CoreLocation.framework in Frameworks */,
+				AD3ED52D1D746BB400EA6AFE /* MapKit.framework in Frameworks */,
+				ADA84D5A1D737219005F73B4 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,9 @@
 		AD32A09D1D73556F00F7F6CA = {
 			isa = PBXGroup;
 			children = (
+				AD9B81391D74C9F600FDD251 /* CoreLocation.framework */,
+				AD3ED52C1D746BB400EA6AFE /* MapKit.framework */,
+				ADA84D591D737219005F73B4 /* MobileCoreServices.framework */,
 				AD32A0A81D73556F00F7F6CA /* Assignment1 */,
 				AD32A0C21D73556F00F7F6CA /* Assignment1Tests */,
 				AD32A0CD1D73556F00F7F6CA /* Assignment1UITests */,
@@ -101,10 +125,15 @@
 		AD32A0A81D73556F00F7F6CA /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				AD32A0DC1D73585900F7F6CA /* BZFoursquare */,
 				AD32A0AC1D73556F00F7F6CA /* AppDelegate.h */,
+				ADF9CBBD1D760E9A00A60BA3 /* venue.h */,
+				ADF9CBBE1D760E9A00A60BA3 /* venue.m */,
 				AD32A0AD1D73556F00F7F6CA /* AppDelegate.m */,
 				AD32A0AF1D73556F00F7F6CA /* ViewController.h */,
 				AD32A0B01D73556F00F7F6CA /* ViewController.m */,
+				AD9B81361D74BF1000FDD251 /* CSMapAnnotation.h */,
+				AD9B81371D74BF1000FDD251 /* CSMapAnnotation.m */,
 				AD32A0B21D73556F00F7F6CA /* Main.storyboard */,
 				AD32A0B51D73556F00F7F6CA /* Assets.xcassets */,
 				AD32A0B71D73556F00F7F6CA /* LaunchScreen.storyboard */,
@@ -138,6 +167,17 @@
 				AD32A0D01D73556F00F7F6CA /* Info.plist */,
 			);
 			path = Assignment1UITests;
+			sourceTree = "<group>";
+		};
+		AD32A0DC1D73585900F7F6CA /* BZFoursquare */ = {
+			isa = PBXGroup;
+			children = (
+				AD32A0DD1D73585900F7F6CA /* BZFoursquare.h */,
+				AD32A0DE1D73585900F7F6CA /* BZFoursquare.m */,
+				AD32A0DF1D73585900F7F6CA /* BZFoursquareRequest.h */,
+				AD32A0E01D73585900F7F6CA /* BZFoursquareRequest.m */,
+			);
+			path = BZFoursquare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF9CBBF1D760E9A00A60BA3 /* venue.m in Sources */,
 				AD32A0B11D73556F00F7F6CA /* ViewController.m in Sources */,
+				AD32A0E21D73585900F7F6CA /* BZFoursquareRequest.m in Sources */,
 				AD32A0AE1D73556F00F7F6CA /* AppDelegate.m in Sources */,
+				AD32A0E11D73585900F7F6CA /* BZFoursquare.m in Sources */,
 				AD32A0AB1D73556F00F7F6CA /* main.m in Sources */,
+				AD9B81381D74BF1000FDD251 /* CSMapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +457,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FOURSQURE_CALLBACK_URL = "assignment1://foursqare";
+				FOURSQURE_CLIENT_ID = 3YLHCFDCVLHY0UV24NE35R0TEA4ZVX3PTCLLVW34CYPBV25O;
 				INFOPLIST_FILE = Assignment1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-fno-objc-arc";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damjan.Assignment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +473,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FOURSQURE_CALLBACK_URL = "assignment1://foursqare";
+				FOURSQURE_CLIENT_ID = 3YLHCFDCVLHY0UV24NE35R0TEA4ZVX3PTCLLVW34CYPBV25O;
 				INFOPLIST_FILE = Assignment1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-fno-objc-arc";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damjan.Assignment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +552,7 @@
 				AD32A0D51D73556F00F7F6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD32A0D61D73556F00F7F6CA /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +561,7 @@
 				AD32A0D81D73556F00F7F6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD32A0D91D73556F00F7F6CA /* Build configuration list for PBXNativeTarget "Assignment1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +570,7 @@
 				AD32A0DB1D73556F00F7F6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

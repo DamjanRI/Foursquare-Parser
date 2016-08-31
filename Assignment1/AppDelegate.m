@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "BZFoursquare.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    ViewController *controller = (ViewController *)_window.rootViewController;
+    BZFoursquare *foursquare = controller.foursquare;
+    return [foursquare handleOpenURL:url];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
